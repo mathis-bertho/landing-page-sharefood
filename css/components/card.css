@@ -1,0 +1,48 @@
+.card {
+ 	display: flex;
+ 	background: white;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+	margin: 20px 0px;
+	text-align: center;
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+
+.card img {
+	border-radius: 50%;
+	width: 100px;
+}
+
+.card h3 {
+	color: white;
+	flex-grow: 1;
+}
+
+.card p {
+	color: white;
+	flex-grow: 1;
+}
+
+.plate1 {
+	background-image: 
+		linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 80%),
+		url(../../images/plate1.jpg);   
+	padding: 20px;
+	background-size: cover;
+}
+
+.plate2 {
+	background-image: 
+		linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 80%),
+		url(../../images/plate2.jpg);
+	padding: 20px;
+	background-size: cover;   
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
